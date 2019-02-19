@@ -1,0 +1,39 @@
+current directory: /home/milos/environment/sample_app/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
+/usr/share/rvm/rubies/ruby-2.5.1/bin/ruby -I /usr/share/rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190219-6563-1qe113j.rb extconf.rb
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
+creating Makefile
+
+current directory: /home/milos/environment/sample_app/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /home/milos/environment/sample_app/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+In file included from ext/puma_http11/http11_parser.rl:8:0:
+ext/puma_http11/http11_parser.rl: In function ‘puma_parser_execute’:
+ext/puma_http11/http11_parser.rl:111:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ext/puma_http11/http11_parser.rl: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c: In function ‘Init_mini_ssl’:
+mini_ssl.c:450:14: warning: unused variable ‘eng’ [-Wunused-variable]
+   VALUE mod, eng;
+              ^~~
+mini_ssl.c: In function ‘raise_error’:
+mini_ssl.c:444:7: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+ VALUE raise_error(VALUE self) {
+       ^~~~~~~~~~~
+mini_ssl.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/milos/environment/sample_app/vendor/bundle/gems/puma-3.9.1/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -m 0755 puma_http11.so ./.gem.20190219-6563-10jucyk/puma
