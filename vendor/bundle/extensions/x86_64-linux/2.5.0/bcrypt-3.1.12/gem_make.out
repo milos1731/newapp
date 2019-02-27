@@ -1,0 +1,19 @@
+current directory: /home/milos/environment/sample_app/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+/usr/share/rvm/rubies/ruby-2.5.1/bin/ruby -I /usr/share/rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190227-6249-174699w.rb extconf.rb
+creating Makefile
+
+current directory: /home/milos/environment/sample_app/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/milos/environment/sample_app/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/milos/environment/sample_app/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20190227-6249-sdj0sl
